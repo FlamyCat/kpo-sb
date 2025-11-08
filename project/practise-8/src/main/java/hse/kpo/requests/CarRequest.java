@@ -1,5 +1,6 @@
 package hse.kpo.requests;
 
+import hse.kpo.enums.EngineTypes;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.Max;
@@ -9,7 +10,7 @@ import jakarta.validation.constraints.Pattern;
 public record CarRequest(
         @Schema(description = "Тип двигателя", example = "PEDAL")
         @Pattern(regexp = "PEDAL|HAND|LEVITATION", message = "Допустимые значения: PEDAL, HAND, LEVITATION")
-        String engineType,
+        EngineTypes engineType,
 
         @Schema(description = "Размер педалей (1-15)", example = "6")
         @Min(value = 1, message = "Минимальный размер педалей - 1")
