@@ -45,6 +45,11 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-aop")
 
 	implementation("com.fasterxml.jackson.core:jackson-databind:2.18.2")
+
+    // Spring Web - основа для REST контроллеров
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	// Swagger - документация и тестирование API
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
 }
 
 tasks.withType<Test> {
