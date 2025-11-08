@@ -3,7 +3,7 @@ package hse.kpo.facade;
 import hse.kpo.domains.catamarans.Catamaran;
 import hse.kpo.domains.catamarans.CatamaranWithWheels;
 import hse.kpo.domains.customer.Customer;
-import hse.kpo.domains.Report;
+import hse.kpo.domains.reports.Report;
 import hse.kpo.enums.ReportFormat;
 import hse.kpo.export.transport.TransportExporter;
 import hse.kpo.factories.ReportExporterFactory;

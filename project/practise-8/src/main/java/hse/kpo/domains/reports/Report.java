@@ -1,4 +1,4 @@
-package hse.kpo.domains;
+package hse.kpo.domains.reports;
 
 /**
  * Отчет о работе системы.

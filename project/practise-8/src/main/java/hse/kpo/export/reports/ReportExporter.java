@@ -1,6 +1,6 @@
 package hse.kpo.export.reports;
 
-import hse.kpo.domains.Report;
+import hse.kpo.domains.reports.Report;
 import java.io.IOException;
 import java.io.Writer;
 

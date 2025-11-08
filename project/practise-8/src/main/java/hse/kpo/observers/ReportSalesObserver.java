@@ -2,7 +2,7 @@ package hse.kpo.observers;
 
 import hse.kpo.builders.ReportBuilder;
 import hse.kpo.domains.customer.Customer;
-import hse.kpo.domains.Report;
+import hse.kpo.domains.reports.Report;
 import hse.kpo.enums.ProductionTypes;
 import hse.kpo.storages.CustomerStorage;
 import lombok.RequiredArgsConstructor;

@@ -1,7 +1,7 @@
 package hse.kpo.export.reports.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import hse.kpo.domains.Report;
+import hse.kpo.domains.reports.Report;
 import hse.kpo.export.reports.ReportExporter;
 
 import java.io.IOException;
