@@ -1,9 +1,9 @@
 package hse.kpo.domains.catamarans;
 
 import hse.kpo.domains.Customer;
-import hse.kpo.domains.HandEngine;
-import hse.kpo.domains.LevitationEngine;
-import hse.kpo.domains.PedalEngine;
+import hse.kpo.domains.engines.HandEngine;
+import hse.kpo.domains.engines.LevitationEngine;
+import hse.kpo.domains.engines.PedalEngine;
 import hse.kpo.enums.EngineTypes;
 import hse.kpo.enums.ProductionTypes;
 import hse.kpo.interfaces.Engine;
