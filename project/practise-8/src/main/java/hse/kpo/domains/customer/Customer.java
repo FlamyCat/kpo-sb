@@ -1,4 +1,4 @@
-package hse.kpo.domains;
+package hse.kpo.domains.customer;
 
 import hse.kpo.domains.cars.Car;
 import hse.kpo.domains.catamarans.Catamaran;

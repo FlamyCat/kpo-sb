@@ -1,6 +1,6 @@
 package hse.kpo.domains.catamarans;
 
-import hse.kpo.domains.Customer;
+import hse.kpo.domains.customer.Customer;
 import hse.kpo.domains.cars.Car;
 import hse.kpo.enums.ProductionTypes;
 

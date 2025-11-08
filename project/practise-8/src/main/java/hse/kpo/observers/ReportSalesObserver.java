@@ -1,7 +1,7 @@
 package hse.kpo.observers;
 
 import hse.kpo.builders.ReportBuilder;
-import hse.kpo.domains.Customer;
+import hse.kpo.domains.customer.Customer;
 import hse.kpo.domains.Report;
 import hse.kpo.enums.ProductionTypes;
 import hse.kpo.storages.CustomerStorage;

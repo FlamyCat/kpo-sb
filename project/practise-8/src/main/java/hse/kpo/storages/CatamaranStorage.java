@@ -1,7 +1,7 @@
 package hse.kpo.storages;
 
 import hse.kpo.domains.catamarans.Catamaran;
-import hse.kpo.domains.Customer;
+import hse.kpo.domains.customer.Customer;
 import hse.kpo.interfaces.catamarans.CatamaranFactory;
 import hse.kpo.interfaces.catamarans.CatamaranProvider;
 import java.util.ArrayList;

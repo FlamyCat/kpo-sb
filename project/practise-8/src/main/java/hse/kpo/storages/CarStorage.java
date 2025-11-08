@@ -1,7 +1,7 @@
 package hse.kpo.storages;
 
 import hse.kpo.domains.cars.Car;
-import hse.kpo.domains.Customer;
+import hse.kpo.domains.customer.Customer;
 import hse.kpo.interfaces.cars.CarFactory;
 import hse.kpo.interfaces.cars.CarProvider;
 import java.util.ArrayList;
