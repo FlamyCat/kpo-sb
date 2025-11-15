@@ -1,16 +1,17 @@
-package hse.kpo.requests;
+package hse.kpo.dto.request;
 
-import hse.kpo.enums.EngineTypes;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.Pattern;
+import lombok.Builder;
 
+@Builder
 public record CarRequest(
-        @Schema(description = "Тип двигателя", example = "PEDAL")
+        @Schema(description = "Тип двигателя (PEDAL, HAND, LEVITATION)", example = "PEDAL")
         @Pattern(regexp = "PEDAL|HAND|LEVITATION", message = "Допустимые значения: PEDAL, HAND, LEVITATION")
-        EngineTypes engineType,
+        String engineType,
 
         @Schema(description = "Размер педалей (1-15)", example = "6")
         @Min(value = 1, message = "Минимальный размер педалей - 1")
