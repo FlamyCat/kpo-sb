@@ -21,3 +21,7 @@ spring:
         format_sql: true
 server:
   port: 8080
+
+notification:
+  integration:
+    base-url: http://localhost:8081
